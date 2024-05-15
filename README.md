@@ -21,4 +21,4 @@ This project is a simple web application that generates random passwords. It use
 ## Installation
 No additional installation is required. Simply clone the repository and open the HTML file in your browser.
 
-git clone https://github.com/yourusername/password-generator.git
+git clone https://github.com/metenis/password-generator.git
