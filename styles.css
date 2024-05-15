@@ -1,0 +1,46 @@
+/* General styles for the body of the page */
+body {
+    font-family: 'Arial', sans-serif; /* Sets the font family for the entire page */
+    background-color: #f4f4f9; /* Light grey background color for the whole page */
+    display: flex; /* Enables flexbox layout which is great for centering elements */
+    justify-content: center; /* Centers the child elements horizontally in the flex container */
+    align-items: center; /* Centers the child elements vertically in the flex container */
+    height: 100vh; /* Sets the height of the body to be the full height of the viewport */
+    margin: 0; /* Removes the default margin around the body */
+}
+
+/* Styling for the box container */
+.box {
+    background-color: white; /* Sets a white background for the box */
+    padding: 40px; /* Adds space inside the box around its content */
+    border-radius: 8px; /* Rounds the corners of the box */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow around the box */
+    width: 300px; /* Sets a fixed width for the box */
+    text-align: center; /* Centers the text inside the box */
+}
+
+/* Styling for buttons */
+button {
+    background-color: #007BFF; /* Bright blue background color for buttons */
+    color: white; /* Text color for buttons is white */
+    border: none; /* No borders on buttons */
+    border-radius: 5px; /* Rounds the corners of the buttons */
+    padding: 10px 20px; /* Adds padding inside the buttons to increase size */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the buttons */
+    margin: 10px 5px; /* Adds margin around buttons to provide space between them */
+    font-size: 16px; /* Sets the text size inside the buttons */
+    transition: background-color 0.3s; /* Smooth transition for the background color change on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue color for buttons on hover */
+}
+
+/* Styling for the input field */
+input#password {
+    border: 2px solid #ddd; /* Adds a light grey border around the input field */
+    border-radius: 5px; /* Rounds the corners of the input field */
+    padding: 10px; /* Adds padding inside the input field for better text visibility */
+    width: calc(100% - 22px); /* Calculates the width to be 100% minus padding to prevent overflow */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
